@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(230, 114, 114);
+}
+.box{
+    width: 500px;
+    background: #fafafa;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
+}
+h1{
+    
+}
