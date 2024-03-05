@@ -18,17 +18,13 @@
   .container {
     min-width: 250px;
   } */
-
   .box {
     width: 500px;
     background: #A9A9A9;
     border-radius: 12px;
     text-align: center;
     box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.5);
-
   }
-
-
   h1 {
     color: rgb(0, 0, 0, 0.7);
     font-weight: bold;
@@ -36,14 +32,10 @@
     padding: 30px 0;
     
   }
-
-
-    
     .content {
         padding: 0 30px;
         
     }
-    
     .input {
         background: #EFEFEF;
         box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
@@ -51,8 +43,6 @@
         padding: 20px 0;
         margin-bottom: 20px;
     }
-
-    
     .input label {
         display: block;
         font-size: 18px;
@@ -70,9 +60,6 @@
         font-size: 28px;
         font-family: "Nunito", sans-serif;
     }
-
-
-    
     .inputW {
         background-color: #EFEFEF;
         box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
@@ -80,8 +67,6 @@
         padding: 10px 0;
         margin-bottom: 20px;
     }
-
-
     .inputW label {
         display: block;
         font-size: 18px;
@@ -99,7 +84,6 @@
         font-size: 28px;
         font-family: "Nunito", sans-serif;
     }
-
     .inputH {
         background: #EFEFEF;
         box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
@@ -108,8 +92,6 @@
         margin-bottom: 20px;
         margin-right: 20px;
     }
-
-
     .inputH label {
         display: block;
         font-size: 18px;
@@ -126,9 +108,7 @@
         text-align: center;
         font-size: 28px;
         font-family: "Nunito", sans-serif;
-    }
-
-  
+    } 
 button.calculate {
     cursor: pointer;
     font-family: "Nunito", sans-serif;
@@ -144,10 +124,7 @@ button.calculate {
   }
   button.calculate:hover {
     background: #0044ff;
-  }
-
-  
-  
+  } 
 .result {
     padding: 10px 20px;
   }
@@ -171,21 +148,18 @@ button.calculate {
     color: #eb0e11;
     font-weight: 800;
   }
-
 .comment {
     display: none;
     border: dashed 1px;
     border-radius: 7px;
     padding: 5px;
 }
-
 .footer {
     display: flex;
     justify-content: start;
     align-items: center;
     padding: 10px 15px
 }
-
 .footer-text {
     text-decoration: none;
     color: rgba(40, 40, 40, 0.8);
@@ -194,11 +168,9 @@ button.calculate {
     font-size: 14px;
     transition: all 0.5;
 }
-
 .footer-text:hover {
     color: rgba(40, 40, 40, 1);
 }
-
 .gender {
     display: flex;
     justify-content: space-around;
@@ -210,7 +182,6 @@ button.calculate {
     padding: 20px 0;
     margin-bottom: 20px;
 }
-
   /* Style for Radio */
 .gender .container {
     display: block;
@@ -225,14 +196,12 @@ button.calculate {
     -ms-user-select: none;
     user-select: none;
   }
-  
   /* Hide the browser's default radio button */
   .gender .container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
   }
-  
   /* Create a custom radio button */
   .checkmark {
     position: absolute;
@@ -243,29 +212,24 @@ button.calculate {
     background-color: #A9A9A9;
     border-radius: 50%;
   }
-  
   /* On mouse-over, add a grey background color */
   .gender .container:hover input ~ .checkmark {
     background-color: #ccc;
   }
-  
   /* When the radio button is checked, add a blue background */
   .gender .container input:checked ~ .checkmark {
     background-color: #FF3B3F;
   }
-  
   /* Create the indicator (the dot/circle - hidden when not checked) */
   .checkmark:after {
     content: "";
     position: absolute;
     display: none;
   }
-  
   /* Show the indicator (dot/circle) when checked */
   .gender .container input:checked ~ .checkmark:after {
     display: block;
   }
-  
   /* Style the indicator (dot/circle) */
   .gender .container .checkmark:after {
        top: 9px;
@@ -276,17 +240,11 @@ button.calculate {
       background: white;
   }
   /* END Style for Radio */
-
 .containerHW {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-  
-
-
-
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -301,9 +259,7 @@ button.calculate {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   padding-top: 300px;
-
 }
-
 /* Modal Content */
 .modal-content {
   background-color: #fefefe;
@@ -314,7 +270,6 @@ button.calculate {
   border-radius: 10px;
   box-shadow: #393c76 -1px 2px 2px 1px;
 }
-
 #modalText {
   padding-top: 8px;
   padding-right: 5px;
@@ -322,15 +277,12 @@ button.calculate {
   font-family: 'Poppins', sans-serif;
   color: rgb(24, 23, 23);
 }
-
 .modal-wrong {
 border: 2px solid red;
 }
-
 .modal-correct {
   border: 2px solid green;
   }
-
 /* The Close Button */
 .close {
   color: #aaaaaa;
@@ -340,44 +292,23 @@ border: 2px solid red;
   cursor: pointer;
   transition: all 0.3s;
 }
-
 .close:hover {
   color: #d41111; 
 }
-
-
-  
-
 @media (max-width: 700px){
-
-
     .box {
         width: 380px;
     }
-
-
-
-    
     .input label {
-
         font-size: 18px;
     }
-
     .inputH label, .inputW label {
         font-size: 14px;
     }
-
-
     .input input, .inputH input, .inputW input{
         font-size: 24px;
     }
-
-
     .modal-content {
-
       width: 380px;
     }
-
-
-
 }
