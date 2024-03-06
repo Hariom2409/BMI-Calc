@@ -11,7 +11,6 @@ modalText = document.querySelector("#modalText");
 var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 
-
 function calculate(){
  
   if(age.value=='' || height.value=='' || weight.value=='' || (male.checked==false && female.checked==false)){
